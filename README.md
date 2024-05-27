@@ -135,7 +135,11 @@ vector<int> ford(int source, vector<Aresta> &arestas, int qntd_nos) {
             }
         }
     }
-    
+    //caso queira detectar ciclos negativos.
+    //for(auto Aresta : aresta){
+    //    if(distancia[u] != inf && distancia[v] > distancia[u] + p) return true;
+    //
+    //return false;
     return distancia;
 }
 
